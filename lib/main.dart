@@ -25,6 +25,8 @@ class MainApp extends StatelessWidget {
   }
 }
 
+// PRIMERA PANTALLA ----------------------------------------------------------------
+
 class WordGenerator extends StatefulWidget {
   const WordGenerator({super.key});
 
@@ -114,6 +116,8 @@ class _WordGeneratorState extends State<WordGenerator> {
     );
   }
 }
+
+// SEGUNDA PANTALLA ----------------------------------------------------------------
 
 class SecondScreen extends StatefulWidget {
   const SecondScreen({super.key});
