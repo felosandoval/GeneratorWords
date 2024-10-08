@@ -71,7 +71,7 @@ class _WordGeneratorState extends State<WordGenerator> {
                 ),
               );
               setState(() {
-                _loadData();  // Recarga los datos cuando regreses de la segunda pantalla
+                _loadData();  // Recarga los datos cuando se regresa de la segunda pantalla
               });
             },
           ),
